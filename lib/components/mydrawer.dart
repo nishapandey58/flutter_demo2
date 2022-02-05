@@ -1,8 +1,5 @@
-// ignore_for_file: unnecessary_new
 
 import 'package:flutter/material.dart';
-
-// ignore: camel_case_types
 class meroDrawer extends StatelessWidget {
   const meroDrawer({Key? key}) : super(key: key);
 
