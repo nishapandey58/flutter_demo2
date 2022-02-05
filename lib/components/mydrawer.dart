@@ -20,7 +20,7 @@ class meroDrawer extends StatelessWidget {
               child: Column(children: [
                 const CircleAvatar(
                   backgroundImage: AssetImage('images/rabin2.jpg'),
-                  maxRadius: 35,
+                  maxRadius: 40,
                   backgroundColor: Colors.black,
                 )
               ]),
