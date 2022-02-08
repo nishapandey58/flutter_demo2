@@ -1,14 +1,14 @@
 
 import 'package:flutter/material.dart';
-class meroDrawer extends StatelessWidget {
-  const meroDrawer({Key? key}) : super(key: key);
+class MeroDrawer extends StatelessWidget {
+  const MeroDrawer({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    return new Drawer(
-      child: new ListView(
+    return Drawer(
+      child: ListView(
         children: [
-          new UserAccountsDrawerHeader(
+          UserAccountsDrawerHeader(
             decoration: const BoxDecoration(color: Colors.black),
             accountName: const Text('Rabin Pradhan'),
             accountEmail: const Text('rabinpradhan631@gmail.com'),

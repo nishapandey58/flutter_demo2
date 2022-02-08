@@ -15,7 +15,7 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      drawer: const meroDrawer(),
+      drawer: const MeroDrawer(),
       appBar: AppBar(
         title: const Text('My App'),
         centerTitle: true,
